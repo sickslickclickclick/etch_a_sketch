@@ -1,0 +1,37 @@
+.cell {
+    border: 1px solid gray;
+    min-width: 20px;
+    min-height: 20px;
+    display: inline-block;
+    margin-right: 2px;
+  }
+
+/*.cell:hover{
+  background-color: blue;
+}
+*/
+.entered{
+  background-color: blue;
+}
+  /* inline-block allows element to sit next to eachother -- does not add 
+  a break after the element*/
+
+  /* should be able to create 16 divs, then break, and repeat this 16 times
+  
+  */
+
+  #container{
+    background-color: blueviolet;
+    max-width: 960px;
+    min-width: 960px;
+    max-height: 960px;
+    min-height: 960px;
+  }
+
+  html{
+    background-color: brown;
+    max-width: 960px;
+    min-width: 960px;
+    max-height: 960px;
+    min-height: 960px;
+  }
